@@ -19,3 +19,18 @@ GET request without Query Parmeters
 
 GET request with Query Parameters
 ![get_request_with_query](https://github.com/mansi173-sharma/Django-Assignment/blob/main/public/users-get-request-with-query.png?raw=true)
+
+POST request 
+![post_request](https://github.com/mansi173-sharma/Django-Assignment/blob/main/public/users-post-request.png?raw=true)
+
+POST response
+![post_response](https://github.com/mansi173-sharma/Django-Assignment/blob/main/public/users-post-response.png?raw=true)
+
+PUT request
+![put_request](https://github.com/mansi173-sharma/Django-Assignment/blob/main/public/users-put-request.png?raw=true)
+
+PUT response
+![put_response](https://github.com/mansi173-sharma/Django-Assignment/blob/main/public/users-put-response.png?raw=true)
+
+DELETE request
+![delete_request](https://github.com/mansi173-sharma/Django-Assignment/blob/main/public/users-delete-request1.png?raw=true)
