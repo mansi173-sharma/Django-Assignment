@@ -14,8 +14,8 @@
 Screenshot of someof output:
 
 GET request without Query Parmeters
-![get_request](https://github.com/mansi173-sharma/Django-Assignment/blob/main/public/users-get-request-without-query.jpg?raw=true)
+![get_request](https://github.com/mansi173-sharma/Django-Assignment/blob/main/public/users-get-request-without-query.png?raw=true)
 
 
 GET request with Query Parameters
-![get_request_with_query](https://github.com/mansi173-sharma/Django-Assignment/blob/main/public/users-get-request-with-query.jpg?raw=true)
+![get_request_with_query](https://github.com/mansi173-sharma/Django-Assignment/blob/main/public/users-get-request-with-query.png?raw=true)
