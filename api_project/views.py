@@ -18,7 +18,14 @@ def isContains(string, pattern):
 
 class UserViewSet(viewsets.ModelViewSet):
    queryset = User.objects.all()
-
+   
+   filter_fields = (
+      'first_name',
+      'last_name',
+      'company_name',
+      'age',
+      'id'
+   )
 
    def get_queryset(self):
       sort = self.request.query_params.get('sort')
@@ -36,6 +43,7 @@ class UserViewSet(viewsets.ModelViewSet):
             if (isContains(x.first_name, name) or isContains(x.last_name, name)):
                updatedQueryset.append(x)
          queryset = updatedQueryset
+      
       if sort:
          isReverse = False
          if (sort[0] == '-'):
